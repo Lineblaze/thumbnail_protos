@@ -1,3 +1,3 @@
-module thumbnail_protos
+module github.com/Lineblaze/thumbnail_protos
 
 go 1.22.3
