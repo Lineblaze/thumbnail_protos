@@ -4,7 +4,7 @@ package thumbnail;
 
 option go_package = "thumbnail.v1;thumbnailv1";
 
-service Auth {
+service Thumbnail {
   rpc GetThumbnail(ThumbnailRequest) returns (ThumbnailResponse);
 }
 
