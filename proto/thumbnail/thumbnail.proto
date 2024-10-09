@@ -9,10 +9,9 @@ service Thumbnail {
 }
 
 message ThumbnailRequest {
-  string video_url = 1;
+  string url = 1;
 }
 
 message ThumbnailResponse {
   bytes thumbnail = 1;
-  string message = 2;
 }
